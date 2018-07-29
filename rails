@@ -69,6 +69,8 @@ development:
 
 # comando scaffold 
 rails generate scaffold User name:string email:string
+# comando para destruir scaffold
+rails destroy scaffold User
 
 # Correr migraciones 
 rake db:migrate
